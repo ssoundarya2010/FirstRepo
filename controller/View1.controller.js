@@ -13,7 +13,12 @@ sap.ui.define([
 
 			//var a = 10;
 			this._fragments = [];
+
 				MessageToast.show("test");
+
+			var a =  20; 
+		    var b=10;
+
 
 		},
 		onButtonPressed: function(oEvent){
