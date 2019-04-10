@@ -8,6 +8,9 @@ sap.ui.define([
 		onRatingChanged: function(oEvent) {
 			var value = oEvent.getParameter("value");
 			MessageToast.show("Your new Rating is " + value);
+		},
+		onInit: function(){
+			
 		}
 	});
 });
