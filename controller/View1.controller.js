@@ -14,6 +14,7 @@ sap.ui.define([
 			var a = 10;
 			this._fragments = [];
 			a = a + 20; 
+		    var b=10;
 
 		},
 		onButtonPressed: function(){}
