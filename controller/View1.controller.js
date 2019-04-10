@@ -9,6 +9,9 @@ sap.ui.define([
 			var value = oEvent.getParameter("value");
 			MessageToast.show("Your new Rating : " + value); 
 		},
-		onInit : function(){}
+		onInit : function(){
+			
+			var a=10;
+		}
 	});
 });
