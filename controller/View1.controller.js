@@ -16,6 +16,9 @@ sap.ui.define([
 			a = a + 20; 
 
 		},
-		onButtonPressed: function(){}
+		onButtonPressed: function(oEvent){
+				var value = oEvent.getParameter("value");
+				MessageToast.show("Your new Rating : " + value);
+		}
 	});
 });
