@@ -15,6 +15,9 @@ sap.ui.define([
 			this._fragments = [];
 			a = a + 20; 
 
+		},
+		onButtonPressed: function(){
+			
 		}
 	});
 });
