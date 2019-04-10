@@ -7,10 +7,8 @@ sap.ui.define([
 	return Controller.extend("zcustomControl_1.controller.View1", {
 		onRatingChanged: function(oEvent) {
 			var value = oEvent.getParameter("value");
-			MessageToast.show("Your new Rating is " + value);
+			MessageToast.show("Your new Rating : " + value); 
 		},
-		onInit: function(){
-			
-		}
+		onInit : function(){}
 	});
 });
