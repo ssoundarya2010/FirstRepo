@@ -5,10 +5,7 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("zcustomControl_1.controller.View1", {
-		onRatingChanged: function (oEvent) {
-			var value = oEvent.getParameter("value");
-			MessageToast.show("Your new Rating : " + value);
-		},
+		
 		onInit: function () {
 
 			//var a = 10;
